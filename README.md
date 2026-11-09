@@ -21,7 +21,6 @@ This system embeds local corporate policy documents using `BAAI/bge-small-en-v1.
 
 ## 🏗️ Project Architecture
 
-```text
 enterprise_rag_bot/
 ├── data/                      # Directory containing corporate text documents (.txt)
 │   └── sample_policy.txt      # Example policy document
@@ -31,88 +30,104 @@ enterprise_rag_bot/
 ├── index.html                 # Futuristic web UI frontend
 └── README.md                  # Project documentation
 
-🚀 Quick Start Guide
-1. Prerequisites
+---
+
+## 🚀 Quick Start Guide
+
+### 1. Prerequisites
+
 Ensure you have Python 3.11+ installed on your machine.
 
-2. Environment Setup
+### 2. Environment Setup
+
 Clone the repository and navigate into the project folder:
 
-git clone [https://github.com/your-username/enterprise-policy-rag-bot.git](https://github.com/your-username/enterprise-policy-rag-bot.git)
+git clone https://github.com/your-username/enterprise-policy-rag-bot.git
 cd enterprise-policy-rag-bot
 
 Install the required Python dependencies:
 
-Bash
 pip install fastapi uvicorn google-genai sentence-transformers numpy pydantic
-3. API Key Configuration
-Obtain a Google Gemini API Key from Google AI Studio.
+
+---
+
+### 3. API Key Configuration
+
+Obtain a Google Gemini API Key from Google AI Studio (https://aistudio.google.com/app/apikey).
 
 Set your API key in your terminal session:
 
 PowerShell (Windows):
-
-PowerShell
 $env:GEMINI_API_KEY="your_api_key_here"
-Bash / Linux / macOS:
 
-Bash
+Bash / Linux / macOS:
 export GEMINI_API_KEY="your_api_key_here"
+
 Note: Alternatively, you can configure your API key directly within rag_engine.py.
 
-4. Running the Application
+---
+
+### 4. Running the Application
+
 Start the FastAPI server with uvicorn:
 
-Bash
 uvicorn app:app --reload
+
 Open your browser and visit:
+* Web UI Console: http://127.0.0.1:8000
+* Swagger API Docs: http://127.0.0.1:8000/docs
 
-Web UI Console: http://127.0.0.1:8000
+---
 
-Swagger API Docs: http://127.0.0.1:8000/docs
+## 🧪 Testing the CLI RAG Engine
 
-🧪 Testing the CLI RAG Engine
 You can test document loading, semantic embedding search, and LLM generation directly via the terminal script:
 
-Bash
 python test_rag.py
-Example Output:
 
-Plaintext
+Example Output:
 Initializing RAG Engine...
 Querying: 'How many days of paid leave do employees get?'
 
 --- RESPONSE ---
 Answer: Employees get 20 days of paid leave annually.
 Sources: ['sample_policy.txt']
-🛠️ API Reference
-POST /query
+
+---
+
+## 🛠️ API Reference
+
+### POST /query
+
 Submit a question to the knowledge base.
 
 Request Body:
-
-JSON
 {
   "query": "What are the remote work approval guidelines?"
 }
-Response:
 
-JSON
+Response:
 {
   "answer": "Remote work requires manager approval 48 hours in advance.",
   "sources": [
     "sample_policy.txt"
   ]
 }
-GET /
+
+### GET /
+
 Serves index.html web dashboard or returns JSON health metrics.
 
-📁 Adding Custom Policy Documents
-Drop any corporate .txt document into the ./data/ folder.
+---
 
-Restart the server (uvicorn app:app --reload).
+## 📁 Adding Custom Policy Documents
 
-The engine automatically chunks, embeds, and indexes new documents on startup!
+1. Drop any corporate .txt document into the ./data/ folder.
+2. Restart the server (uvicorn app:app --reload).
+3. The engine automatically chunks, embeds, and indexes new documents on startup!
 
-📄 License
+---
+
+## 📄 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
