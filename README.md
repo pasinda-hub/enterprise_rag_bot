@@ -31,17 +31,13 @@ enterprise_rag_bot/
 ├── index.html                 # Futuristic web UI frontend
 └── README.md                  # Project documentation
 
-## 🚀 Quick Start Guide
+🚀 Quick Start Guide
+1. Prerequisites
+Ensure you have Python 3.11+ installed on your machine.
 
-### 1. Prerequisites
-
-Ensure you have **Python 3.11+** installed on your machine.
-
-### 2. Environment Setup
-
+2. Environment Setup
 Clone the repository and navigate into the project folder:
 
-```bash
 git clone [https://github.com/your-username/enterprise-policy-rag-bot.git](https://github.com/your-username/enterprise-policy-rag-bot.git)
 cd enterprise-policy-rag-bot
 
@@ -49,11 +45,7 @@ Install the required Python dependencies:
 
 Bash
 pip install fastapi uvicorn google-genai sentence-transformers numpy pydantic
-
-
-
-API Key Configuration
-
+3. API Key Configuration
 Obtain a Google Gemini API Key from Google AI Studio.
 
 Set your API key in your terminal session:
@@ -85,6 +77,7 @@ You can test document loading, semantic embedding search, and LLM generation dir
 Bash
 python test_rag.py
 Example Output:
+
 Plaintext
 Initializing RAG Engine...
 Querying: 'How many days of paid leave do employees get?'
@@ -123,6 +116,3 @@ The engine automatically chunks, embeds, and indexes new documents on startup!
 
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-
