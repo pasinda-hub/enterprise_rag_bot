@@ -20,6 +20,8 @@ This system embeds local corporate policy documents using `BAAI/bge-small-en-v1.
 ---
 
 ## 🏗️ Project Architecture
+
+```text
 enterprise_rag_bot/
 ├── data/                      # Directory containing corporate text documents (.txt)
 │   └── sample_policy.txt      # Example policy document
@@ -28,7 +30,6 @@ enterprise_rag_bot/
 ├── test_rag.py                # Standalone CLI test script
 ├── index.html                 # Futuristic web UI frontend
 └── README.md                  # Project documentation
----
 
 ## 🚀 Quick Start Guide
 
