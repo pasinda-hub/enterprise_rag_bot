@@ -1,38 +1,38 @@
-<!-- HEADER BANNER: DYNAMIC WAVING GRADIENT -->
+<!-- CYBERPUNK HEADER BANNER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,10,20&height=220&section=header&text=PASINDA%20HUB&fontSize=50&animation=twinkle&fontColor=00F0FF" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,10,20&height=220&section=header&text=Enterprise%20Policy%20RAG%20Assistant&fontSize=42&animation=twinkle&fontColor=00F0FF" width="100%" />
 </p>
 
-<!-- ANIMATED TERMINAL TYPING EFFECT -->
+<!-- DYNAMIC TERMINAL SIMULATOR -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=1000&color=00FF66&center=true&vCenter=true&width=700&height=45&lines=>>+SYSTEM.INITIALIZE(%22PASINDA_CORE%22);>>+LOADING+NEURAL+RAG+BOT...;>>+TRAINING+TRAFFIC_LIGHT_RL+AGENT...;>>+STATUS%3A+ALL+SYSTEMS+OPERATIONAL" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=1000&color=00FF66&center=true&vCenter=true&width=750&height=45&lines=>>+INITIALIZING+POLICY_RAG_CORE_V4...;>>+VECTOR_DB%3A+INDEXED+AND+ACTIVE;>>+EXECUTING+ENTERPRISE_KNOWLEDGE_SEARCH...;>>+SYSTEM+STATUS%3A+ALL+NODES+OPERATIONAL" />
   </a>
 </p>
 
-<!-- SCI-FI BADGE ROW -->
+<!-- HIGH-TECH STATUS BADGES -->
 <p align="center">
-  <img src="https://img.shields.io/badge/CORE_OS-CYBERPUNK_V2.0-00F0FF?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/CLEARANCE-LEVEL_5_ADMIN-FF0055?style=for-the-badge&logo=shield&logoColor=white" />
-  <img src="https://img.shields.io/badge/NEURAL_NET-ONLINE-00FF66?style=for-the-badge&logo=openai&logoColor=black" />
+  <img src="https://img.shields.io/badge/ARCHITECTURE-RAG_HYBRID-00F0FF?style=for-the-badge&logo=openai&logoColor=black" />
+  <img src="https://img.shields.io/badge/SECURITY-ENTERPRISE_GRADE-FF0055?style=for-the-badge&logo=shield&logoColor=white" />
+  <img src="https://img.shields.io/badge/LATENCY-%3C150ms-00FF66?style=for-the-badge&logo=lightning&logoColor=black" />
 </p>
 
 ---
 
-## ⚡ // SYSTEM_CAPABILITIES & TECH_MATRIX
+## ⚡ // TECH_MATRIX & STACK
 
 <p align="center">
-  <!-- Languages -->
+  <!-- Core AI & Backend -->
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/LlamaIndex-000000?style=for-the-badge&logo=pypy&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <br>
+  <!-- Vector Store & Frontend -->
+  <img src="https://img.shields.io/badge/Pinecone-131316?style=for-the-badge&logo=pinboard&logoColor=white" />
+  <img src="https://img.shields.io/badge/Qdrant-D32F2F?style=for-the-badge&logo=databricks&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <br>
-  <!-- AI / ML & Tools -->
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
 ---
