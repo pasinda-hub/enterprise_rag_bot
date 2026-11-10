@@ -1,58 +1,36 @@
-<!-- CYBERPUNK SVG ANIMATED HEADER -->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&height=50&lines=⚡+ENTERPRISE+POLICY+RAG+ASSISTANT;🔒+NEURAL+KNOWLEDGE+RETRIEVAL+SYSTEM;🚀+AI-POWERED+COMPLIANCE+ENGINE" />
 </p>
 
-<!-- CUSTOM NEON METALLIC BANNER -->
 <p align="center">
-  <svg width="100%" height="160" viewBox="0 0 850 160" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#05050A" />
-        <stop offset="50%" stop-color="#0B0F19" />
-        <stop offset="100%" stop-color="#12051B" />
-      </linearGradient>
-      <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#00F0FF" />
-        <stop offset="50%" stop-color="#7000FF" />
-        <stop offset="100%" stop-color="#FF0055" />
-      </linearGradient>
-      <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-        <feGaussianBlur stdDeviation="6" result="blur" />
-        <feComposite in="SourceGraphic" in2="blur" operator="over" />
-      </filter>
-    </defs>
-    
-    <!-- Background Box with Rounded Cyber Corners -->
-    <rect width="850" height="160" rx="12" fill="url(#bg-grad)" stroke="#00F0FF" stroke-width="1.5" stroke-opacity="0.4" />
-    
-    <!-- Decorative Tech Grid Lines -->
-    <path d="M 0 40 L 850 40" stroke="#00F0FF" stroke-width="0.5" stroke-opacity="0.15" />
-    <path d="M 0 120 L 850 120" stroke="#FF0055" stroke-width="0.5" stroke-opacity="0.15" />
-    <circle cx="40" cy="80" r="3" fill="#00FF66" filter="url(#glow)" />
-    <circle cx="810" cy="80" r="3" fill="#FF0055" filter="url(#glow)" />
-
-    <!-- Main Heading Text -->
-    <text x="50%" y="75" font-family="'Fira Code', 'Segoe UI', monospace" font-weight="900" font-size="32" fill="url(#text-grad)" text-anchor="middle" filter="url(#glow)">
-      ENTERPRISE POLICY RAG ASSISTANT
-    </text>
-    
-    <!-- Subtitle Tech Tag -->
-    <text x="50%" y="112" font-family="'Fira Code', 'Segoe UI', monospace" font-weight="500" font-size="13" fill="#00FF66" text-anchor="middle" letter-spacing="4">
-      [ SECURE VECTOR RETRIEVAL // NEURAL CORE V4.0 ]
-    </text>
-  </svg>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,10,20&height=180&section=header&text=Enterprise%20Policy%20RAG%20Assistant&fontSize=38&animation=twinkle&fontColor=00F0FF" width="100%" />
 </p>
 
-<!-- SCI-FI STATUS BADGES -->
 <p align="center">
   <img src="https://img.shields.io/badge/ARCHITECTURE-RAG_HYBRID-00F0FF?style=for-the-badge&logo=openai&logoColor=black" />
   <img src="https://img.shields.io/badge/SECURITY-ENTERPRISE_GRADE-FF0055?style=for-the-badge&logo=shield&logoColor=white" />
   <img src="https://img.shields.io/badge/LATENCY-%3C150ms-00FF66?style=for-the-badge&logo=lightning&logoColor=black" />
 </p>
 
+---
+
+## ⚡ // TECH_MATRIX & STACK
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/LlamaIndex-000000?style=for-the-badge&logo=pypy&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <br>
+  <img src="https://img.shields.io/badge/Pinecone-131316?style=for-the-badge&logo=pinboard&logoColor=white" />
+  <img src="https://img.shields.io/badge/Qdrant-D32F2F?style=for-the-badge&logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+</p>
 
 ---
+
+
 
 # 🏢 Enterprise Policy RAG Assistant
 
