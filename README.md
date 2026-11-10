@@ -65,7 +65,7 @@
         <animate attributeName="cx" values="700;720;700" dur="5s" repeatCount="indefinite" />
       </circle>
       <!-- Node 4 -->
-      <small><circle cx="200" cy="140" r="3" fill="#00F0FF" /></small>
+      <circle cx="200" cy="140" r="3" fill="#00F0FF" />
     </g>
 
     <!-- MAIN BANNER TITLE -->
