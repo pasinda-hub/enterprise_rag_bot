@@ -24,7 +24,21 @@
 
 ---
 
+## ⚡TECH_MATRIX & STACK
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/LlamaIndex-000000?style=for-the-badge&logo=pypy&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <br>
+  <img src="https://img.shields.io/badge/Pinecone-131316?style=for-the-badge&logo=pinboard&logoColor=white" />
+  <img src="https://img.shields.io/badge/Qdrant-D32F2F?style=for-the-badge&logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+</p>
+
+---
 
 # 🏢 Enterprise Policy RAG Assistant
 
