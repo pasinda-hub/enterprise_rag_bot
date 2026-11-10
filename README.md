@@ -2,8 +2,82 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&height=50&lines=⚡+ENTERPRISE+POLICY+RAG+ASSISTANT;🔒+NEURAL+KNOWLEDGE+RETRIEVAL+SYSTEM;🚀+AI-POWERED+COMPLIANCE+ENGINE" />
 </p>
 
+<!-- ANIMATED VECTOR CYBERPUNK BACKGROUND BANNER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,10,20&height=180&section=header&text=Enterprise%20Policy%20RAG%20Assistant&fontSize=38&animation=twinkle&fontColor=00F0FF" width="100%" />
+  <svg width="100%" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <!-- Deep Cyberpunk Dark Gradient -->
+      <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#050510" />
+        <stop offset="50%" stop-color="#0B091A" />
+        <stop offset="100%" stop-color="#12041D" />
+      </linearGradient>
+
+      <!-- Neon Text Gradient -->
+      <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#00F0FF" />
+        <stop offset="50%" stop-color="#7000FF" />
+        <stop offset="100%" stop-color="#FF0055" />
+      </linearGradient>
+
+      <!-- Glow Filter -->
+      <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="5" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+    </defs>
+
+    <!-- Background Base -->
+    <rect width="900" height="180" rx="14" fill="url(#bg-grad)" stroke="#00F0FF" stroke-width="1.5" stroke-opacity="0.5" />
+
+    <!-- MOVING VECTOR GRID LINES -->
+    <g stroke="#00F0FF" stroke-opacity="0.1" stroke-width="1">
+      <line x1="0" y1="45" x2="900" y2="45" />
+      <line x1="0" y1="90" x2="900" y2="90" />
+      <line x1="0" y1="135" x2="900" y2="135" />
+      
+      <!-- Animated vertical data stream lines -->
+      <line x1="150" y1="0" x2="150" y2="180" stroke-dasharray="5 15">
+        <animate attributeName="stroke-dashoffset" values="100;0" dur="4s" repeatCount="indefinite" />
+      </line>
+      <line x1="450" y1="0" x2="450" y2="180" stroke-dasharray="8 20" stroke="#FF0055">
+        <animate attributeName="stroke-dashoffset" values="0;100" dur="6s" repeatCount="indefinite" />
+      </line>
+      <line x1="750" y1="0" x2="750" y2="180" stroke-dasharray="6 12" stroke="#00FF66">
+        <animate attributeName="stroke-dashoffset" values="100;0" dur="5s" repeatCount="indefinite" />
+      </line>
+    </g>
+
+    <!-- FLOATING VECTOR DATA NODES (ANIMATED) -->
+    <g filter="url(#glow)">
+      <!-- Node 1 -->
+      <circle cx="100" cy="50" r="3.5" fill="#00F0FF">
+        <animate attributeName="cy" values="45;65;45" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" />
+      </circle>
+      <!-- Node 2 -->
+      <circle cx="820" cy="120" r="4" fill="#FF0055">
+        <animate attributeName="cy" values="120;100;120" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite" />
+      </circle>
+      <!-- Node 3 -->
+      <circle cx="700" cy="40" r="3" fill="#00FF66">
+        <animate attributeName="cx" values="700;720;700" dur="5s" repeatCount="indefinite" />
+      </circle>
+      <!-- Node 4 -->
+      <small><circle cx="200" cy="140" r="3" fill="#00F0FF" /></small>
+    </g>
+
+    <!-- MAIN BANNER TITLE -->
+    <text x="50%" y="82" font-family="'Fira Code', 'Segoe UI', monospace" font-weight="900" font-size="34" fill="url(#text-grad)" text-anchor="middle" filter="url(#glow)">
+      Enterprise Policy RAG Assistant
+    </text>
+
+    <!-- SUBTITLE TECH STATUS -->
+    <text x="50%" y="125" font-family="'Fira Code', 'Segoe UI', monospace" font-weight="600" font-size="13" fill="#00FF66" text-anchor="middle" letter-spacing="5">
+      [ VECTOR KNOWLEDGE BASE // LIVE NEURAL STREAM ]
+    </text>
+  </svg>
 </p>
 
 <p align="center">
@@ -11,23 +85,6 @@
   <img src="https://img.shields.io/badge/SECURITY-ENTERPRISE_GRADE-FF0055?style=for-the-badge&logo=shield&logoColor=white" />
   <img src="https://img.shields.io/badge/LATENCY-%3C150ms-00FF66?style=for-the-badge&logo=lightning&logoColor=black" />
 </p>
-
----
-
-## ⚡ // TECH_MATRIX & STACK
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/LlamaIndex-000000?style=for-the-badge&logo=pypy&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <br>
-  <img src="https://img.shields.io/badge/Pinecone-131316?style=for-the-badge&logo=pinboard&logoColor=white" />
-  <img src="https://img.shields.io/badge/Qdrant-D32F2F?style=for-the-badge&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-</p>
-
 ---
 
 
