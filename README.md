@@ -37,16 +37,6 @@
 
 ---
 
-## 🔮 // PRIMARY_PROJECT_MODULES
-
-```gcode
-[ 01 ] enterprise_rag_bot --------- [PUBLIC]  -> HTML / LangChain / Vector DB
-[ 02 ] traffic_light_rl ------------ [PUBLIC]  -> Reinforcement Learning / Python
-[ 03 ] chest-xray-ai-diagnostics --- [PUBLIC]  -> Deep Learning Diagnostics / JS
-[ 04 ] Weather-Comfort-Index ------- [PUBLIC]  -> Environmental Analytics / JS
-[ 05 ] tutu-lulu-tourism ----------- [PRIVATE] -> Classification Level 5
-
-
 # 🏢 Enterprise Policy RAG Assistant
 
 A local-first, privacy-focused Enterprise Policy Chatbot powered by **FastAPI**, **Sentence-Transformers**, and the **Google Gemini API**. 
